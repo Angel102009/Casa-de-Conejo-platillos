@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 
 body{
     background-color: black;
+    text-align: center;
 }
 
 h1{
@@ -18,4 +18,60 @@ p{
     font-size: 14px;
     font-family: monospace;
     color: white;
+}
+
+li{
+    text-align: center;
+}
+
+button{
+    width: 70px;
+    height: 50px;
+}
+
+.titulo{
+    background-color: purple;
+}
+
+#imagen{
+    width: 25px;
+    height: 19px;
+}
+
+.Box-for-principal{
+    border: 4px red solid;
+    border-radius: 3px;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: darkblue;
+}
+
+.Box-for-rabbit{
+    border: 4px darkorange solid;
+    border-radius: 3px;
+    display: inline-block;
+    width:  300px;
+    height: 200px;
+    background-color: darkblue;
+}
+
+.Box-for-menu{
+    border: 2px white solid;
+    border-radius: 2px;
+    display: inline-block;
+    width: 150px;
+    height: 90px;
+    background-color: grey;
+}
+
+.cuenta{
+    border: 2px white solid;
+    border-radius: 2px;
+    display: inline-block;
+    width: 275px;
+    height: 250px;
+    padding-left: 30px;
+    padding-right: 50px;
+    background-color: gold;
 }

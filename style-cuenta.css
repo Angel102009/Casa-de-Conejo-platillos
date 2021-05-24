@@ -2,3 +2,47 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+.Box-for-principal{
+    border: 3px darkcyan solid;
+    border-radius: 3px;
+    display: inline-block;
+    width: 399px;
+    height: 170px;
+    background-color: darkgrey;
+}
+
+.Decoration-title{
+    width: 390px;
+    height: 60px;
+    background-color: darkorchid;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.Box-for-pregunts{
+    border: 4px darkred solid;
+    border-radius: 4px;
+    display: inline-block;
+    
+}

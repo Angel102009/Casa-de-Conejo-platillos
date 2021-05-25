@@ -44,5 +44,11 @@ img{
     border: 4px darkred solid;
     border-radius: 4px;
     display: inline-block;
-    
+    width: 400px;
+    height: auto;
+    background-color: darkslategrey;
+}
+
+input{
+    width: 200px;
 }

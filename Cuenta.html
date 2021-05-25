@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-cuenta.css">
     <title>Cuenta</title>
 </head>
+
 <body>
-<div class="Box-for-principal">
-<h1>Bienvenido crea tu cuenta</h1>
-<p>Aqui tendras que responder algunas, preguntas todo</p>
-<p>tus datos seguros nesecitamos esa informacion</p>
-<p>para llevarte la comida etc.</p>
-</div>
-</body>    
+    <div class="Box-for-principal">
+        <h1 class="Decoration-title"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa3-jcX8FfbXcniK2BwxWqD3ldnk7Qb9z2gg&usqp=CAU"
+                alt="conejo"> Bienvenido crea tu cuenta</h1>
+        <p>Aqui tendras que responder algunas, preguntas todo</p>
+        <p>tus datos seguros nesecitamos esa informacion</p>
+        <p>para llevarte la comida etc.</p>
+    </div>
+    <form id="Formulario" class="Box-for-pregunts">
+        <h2>Sector 1</h2>
+        <label id="Formulario">
+            <p>¿Puedes poner tu correo?</p>
+            <input type="email" autocomplete="email" aria-autocomplete="inline" aria-current="true" !important>
+            <p>Contraseña</p>
+            <input type="password" autocomplete="current-password" aria-current="date" aria-autocomplete="inline"
+                !important>
+        </label>
+        <label>
+            <p>Nombre de usuario</p>
+            <input type="text" autocomplete="given-name" aria-autocomplete="none" aria-invalid="false"
+                placeholder="Ejem:Angelfizz">
+            <p>Pon la contraseña de tu usuario</p>
+            <input type="password" autocomplete="new-password" aria-current="date" aria-autocomplete="inline">
+        </label>
+        <h2>Sector 2</h2>
+        <label>
+            <p>Cual es tu alcaldia</p>
+            <input list="alcaldias">
+            <datalist id="alcaldias">
+                <option>Benito Juarez</option>
+                <option>Estado de Mexico</option>
+                <option>Miguel Hidalgo</option>
+                <option>Venustiano carranza</option>
+            </datalist>
+        </label>
+        <label>
+            <p>Cual es tu calle y numero</p>
+            <input type="text" autocomplete="postal-code" aria-autocomplete="list" aria-invalid="false" aria-selected="undefined">
+        </label>
+        <label>
+            <p>Cual es tu telefono es por si un pedido no 
+                llegara o por un error te avisaremos</p>
+            <input type="tel" autocomplete="tel-local" aria-selected="false" aria-invalid="true">
+        </label>
+    </form>
+</body>
+
 </html>

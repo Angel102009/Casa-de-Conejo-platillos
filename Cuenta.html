@@ -26,7 +26,7 @@
             <input type="password" autocomplete="current-password" aria-current="date" aria-autocomplete="inline"
                 !important>
         </label>
-        <label>
+        <label id="Formulario">
             <p>Nombre de usuario</p>
             <input type="text" autocomplete="given-name" aria-autocomplete="none" aria-invalid="false"
                 placeholder="Ejem:Angelfizz">
@@ -34,7 +34,7 @@
             <input type="password" autocomplete="new-password" aria-current="date" aria-autocomplete="inline">
         </label>
         <h2>Sector 2</h2>
-        <label>
+        <label id="Formulario">
             <p>Cual es tu alcaldia</p>
             <input list="alcaldias">
             <datalist id="alcaldias">
@@ -44,16 +44,30 @@
                 <option>Venustiano carranza</option>
             </datalist>
         </label>
-        <label>
+        <label id="Formulario">
             <p>Cual es tu calle y numero</p>
             <input type="text" autocomplete="postal-code" aria-autocomplete="list" aria-invalid="false" aria-selected="undefined">
         </label>
-        <label>
+        <label id="Formulario">
             <p>Cual es tu telefono es por si un pedido no 
                 llegara o por un error te avisaremos</p>
             <input type="tel" autocomplete="tel-local" aria-selected="false" aria-invalid="true">
         </label>
+        <button><a href="">Guardar datos y enviar</a></button>
     </form>
 </body>
+<script>
+const button = document.querySelector('button');
 
+button.onclick = function(){
+    alert("Ok ya terminaste tu formulario");
+}
+
+const input = document.querySelector('input')
+
+input.onclick = function(){
+    alert("tienes que leer los parrafos para entender");
+}
+
+</script>
 </html>
